@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Wellfleet";
+  src: url(../../assets/font/Wellfleet-Regular.ttf);
+}
+.header {
+  background-color: #002254;
+  padding: 16px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45.4824px;
+  line-height: 80%;
+  color: #ffffff;
+}
+.header a {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  margin: 0 30px;
+}
+.UzRu {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 37px;
+  display: flex;
+  align-items: flex-end;
+  margin: 0 30px;
+  color: #ffffff;
+}
+.Sun {
+  width: 60px;
+  filter: blur(2);
+}
+.Sun svg,
+.Moon svg {
+  fill: #fff;
+  width: 50px;
+  height: 100%;
+}
